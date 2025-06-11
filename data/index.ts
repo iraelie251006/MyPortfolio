@@ -29,7 +29,7 @@ export const navItems = [
     {
       id: 3,
       title: "My tech stack",
-      description: "I constantly try to improve",
+      description: `I constantly try to improve`,
       className: "lg:col-span-1 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -40,7 +40,7 @@ export const navItems = [
       id: 4,
       title: "Tech enthusiast with a passion for development.",
       description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+      className: "lg:col-span-1 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
       img: "/grid.svg",
@@ -51,7 +51,7 @@ export const navItems = [
       id: 5,
       title: "Currently building a JS Animation library",
       description: "The Inside Scoop",
-      className: "md:col-span-1 md:row-span-2",
+      className: "md:col-span-2 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
       img: "/b5.svg",
@@ -61,7 +61,7 @@ export const navItems = [
       id: 6,
       title: "Do you want to start a project together?",
       description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+      className: "lg:col-span-1 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
       img: "",
@@ -205,13 +205,18 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/iraelie251006",
+      className: "hover:opacity-100 opacity-75"
     },
     {
       id: 2,
       img: "/twit.svg",
+      className: "hover:opacity-100 opacity-75",
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/niyubwayo-irakoze-elie-14b003284/",
+      className: "hover:opacity-100 opacity-75"
     },
   ];

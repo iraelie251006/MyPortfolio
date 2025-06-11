@@ -1,8 +1,12 @@
+"use client"
+
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
-import MagicButton from './ui/MagicButton'
+const MagicButton = dynamic(() => import('./ui/MagicButton'), { ssr: false });
+
 import { FaLocationArrow } from 'react-icons/fa6'
+import dynamic from 'next/dynamic';
 
 const Hero = () => {
   return (
@@ -31,14 +35,13 @@ const Hero = () => {
                     Hi 👋, I&apos;m Elie, a Next.js Developer based in Rwanda 🇷🇼
                 </p>
                 <a href="#about">
-                    <MagicButton 
+                    <MagicButton
                      title='Show My Work'
                      icon={<FaLocationArrow />}
                      position='right'
                      handleClick={() => {}}
                     />
                 </a>
-                
             </div>
         </div>
     </div>
