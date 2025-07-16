@@ -210,11 +210,6 @@ export const navItems = [
     },
     {
       id: 2,
-      img: "/twit.svg",
-      className: "hover:opacity-100 opacity-75",
-    },
-    {
-      id: 3,
       img: "/link.svg",
       link: "https://www.linkedin.com/in/niyubwayo-irakoze-elie-14b003284/",
       className: "hover:opacity-100 opacity-75"
