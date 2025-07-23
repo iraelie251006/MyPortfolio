@@ -46,17 +46,16 @@ export const navItems = [
       img: "/grid.svg",
       spareImg: "/b4.svg",
     },
-  
-    {
-      id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
-      className: "md:col-span-2 md:row-span-2",
-      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-      titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
-      spareImg: "/grid.svg",
-    },
+     {
+       id: 5,
+       title: "I build web apps that are fast, secure, and scalable.",
+       description: "I'm currently building Trackwise web app",
+       className: "md:col-span-2 md:row-span-2",
+       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+       titleClassName: "justify-center md:justify-start lg:justify-center",
+       img: "/b5.svg",
+       spareImg: "/grid.svg",
+     },
     {
       id: 6,
       title: "Do you want to start a project together?",
@@ -72,35 +71,20 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      title: "Devflow",
+      // make a description of devflow a webapp for community of developers.
+      des: "Devflow is a web application designed to streamline the workflow of developers, providing feature for finding jobs, collaboration, and code sharing.",
+      img: "/devflow.jpeg",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+      link: "https://devflow-blue.vercel.app",
     },
     {  
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
-    },
-    {
-      id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
-    },
-    {
-      id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      title: "Linkreative",
+      des: "Linkreative is platform for Rwanda artist to showcase their work and connect with potential buyers.",
+      img: "/linkreative.jpeg",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+      link: "https://linkreative.netlify.app",
     },
   ];
   
@@ -173,8 +157,8 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Backend Engineer Intern",
+      desc: "Assisted in the development of a web-based platform using Express.js, ensuring secure, maintainable and scaleble systems.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
@@ -215,3 +199,4 @@ export const navItems = [
       className: "hover:opacity-100 opacity-75"
     },
   ];
+  

@@ -8,8 +8,25 @@ import { useState } from "react";
 import Lottie from "react-lottie";
 import { IoCopyOutline } from "react-icons/io5";
 import dynamic from "next/dynamic";
+import InfiniteScroll from "../InfiniteScroll";
 const MagicButton = dynamic(() => import('./MagicButton'), { ssr: false });
 
+const items = [
+  { content: "Text Item 1" },
+  { content: <p>Paragraph Item 2</p> },
+  { content: "Text Item 3" },
+  { content: <p>Paragraph Item 4</p> },
+  { content: "Text Item 5" },
+  { content: <p>Paragraph Item 6</p> },
+  { content: "Text Item 7" },
+  { content: <p>Paragraph Item 8</p> },
+  { content: "Text Item 9" },
+  { content: <p>Paragraph Item 10</p> },
+  { content: "Text Item 11" },
+  { content: <p>Paragraph Item 12</p> },
+  { content: "Text Item 13" },
+  { content: <p>Paragraph Item 14</p> },
+];
 
 export const BentoGrid = ({
   className,
@@ -37,7 +54,7 @@ export const BentoGridItem = ({
   img, 
   imgClassName, 
   titleClassName, 
-  spareImg,
+  // spareImg,
   id
 }: {
   className?: string;
@@ -78,13 +95,7 @@ export const BentoGridItem = ({
           )}
         </div>
         <div className={`absolute right-0 -bottom-5 ${id === 5 && 'w-full opacity-80'}`}>
-          {spareImg && (
-            <img 
-             src={spareImg} 
-             alt={spareImg}
-             className={'object-cover object-center w-full h-full'}
-            />
-          )}
+  
         </div>
         {id === 6 && (
           <GradientBg>
