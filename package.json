@@ -9,8 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-three/drei": "^9.119.0",
-    "@react-three/fiber": "^8.17.12",
     "@sentry/nextjs": "^8.51.0",
     "chalk": "^5.4.1",
     "clsx": "^2.1.1",
@@ -28,9 +26,7 @@
     "react-lottie": "^1.2.10",
     "react-reconciler": "^0.31.0",
     "tailwind-merge": "^2.6.0",
-    "tailwindcss-animate": "^1.0.7",
-    "three": "^0.171.0",
-    "three-globe": "^2.35.3"
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
